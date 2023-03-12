@@ -1,0 +1,35 @@
+package miniProjeAsalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//sayi asal mıdır(1 ve kendinden başka pozitif böleni olmayana asal sayi denir)
+		//bug mantıksal hatalar
+		int number=-2;
+		int remainder=number % 2;
+		System.out.println(remainder);
+		boolean isPrime=true;//asal kabul et
+		
+		if (number==1) {
+			System.out.println("Sayi asal değildir");
+			return;//
+		}
+		
+		if (number<1) {
+			System.out.println("Geçersiz sayi");
+		}
+		
+		for (int i = 2; i <number; i++) {
+			if(number % i == 0) {
+				isPrime=false;
+			}
+		}
+		if (isPrime) {
+			System.out.println("Sayi asaldır");
+		}else {
+			System.out.println("Sayi asal değildir");
+		}
+
+	}
+
+}

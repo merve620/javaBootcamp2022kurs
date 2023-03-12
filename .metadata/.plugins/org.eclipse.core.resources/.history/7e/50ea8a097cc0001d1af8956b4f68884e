@@ -1,0 +1,14 @@
+package reCapDemo2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		double[] myList= {1.2,5.2,4.3,7.5};
+		
+		for (double number:myList) {
+			System.out.println(number);
+		}
+
+	}
+
+}

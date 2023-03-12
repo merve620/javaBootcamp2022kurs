@@ -1,0 +1,18 @@
+package variables;
+
+public class Main {
+//reusability(tekrar tekrar kullanılabilirlik bir kere yaz kullan )
+	public static void main(String[] args) {
+		//büyük küçük harf duyarlı 
+		int ogrenciSayisi=12;
+		String mesaj="Öğrenci sayısı";
+		System.out.println(mesaj + ogrenciSayisi);
+		System.out.println(mesaj + ogrenciSayisi);
+		System.out.println("Öğrenci sayım : "+ogrenciSayisi);
+		System.out.println("Öğrenci sayım : "+ogrenciSayisi);
+		System.out.println("Öğrenci sayım : "+ogrenciSayisi);
+		
+
+	}
+
+}
